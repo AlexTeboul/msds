@@ -1,6 +1,18 @@
 # msds
 MS Data Science DePaul University course work for personal reference
 
+1. [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
+2. [CSC 555: Mining Big Data](https://github.com/AlexTeboul/msds/tree/main/csc555-mining-big-data)
+3. [CSC 528: Computer Vision](https://github.com/AlexTeboul/msds/tree/main/csc528-computer-vision)
+4. [DSC 540: Advanced Machine Learning](https://github.com/AlexTeboul/msds/tree/main/dsc540-advanced-machine-learning)
+5. [DSC 510: Health Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc510-health-data-science)
+6. [DSC 478: Programming Machine Learning Applications](https://github.com/AlexTeboul/msds/tree/main/dsc478-programming-machine-learning-applications)
+7. [DSC 465: Data Visualization in R and Tableau](https://github.com/AlexTeboul/msds/tree/main/dsc465-data-visualization-in-R-and-Tableau)
+8. [DSC 441: Fundamentals of Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc441-fundamentals-of-data-science)
+9. [DSC 430: Python Programming](https://github.com/AlexTeboul/msds/tree/main/dsc430-python-programming)
+10. [DSC 424: Advanced Data Analysis in R](https://github.com/AlexTeboul/msds/tree/main/dsc424-advanced-data-analysis-R)
+11. [DSC 423: Data Analysis and Regression in R](https://github.com/AlexTeboul/msds/tree/main/dsc423-data-analysis-and-regression-in-R)
+
 ## [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
 1. [Content Theory Implementation: Emotional Contagion Chatbot](https://github.com/AlexTeboul/msds/blob/main/csc594-topics-in-artificial-intelligence/CSC594_Emotional_Contagion_Content_Theory_Implementation.ipynb)
     * Build a 6 emotional state text classifier using a Gated Recurrent Neural Network
@@ -36,7 +48,6 @@ MS Data Science DePaul University course work for personal reference
     * Code for generating fake faces using StyleGAN2
 
 ## [DSC 540: Advanced Machine Learning](https://github.com/AlexTeboul/msds/tree/main/dsc540-advanced-machine-learning)
-
 1. [DSC540_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_A1.pdf)
     * Decision trees, cross-validation, RMSE and explained variance, run-time
 2. [DSC540_A1.py](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_A1.py)

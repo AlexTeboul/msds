@@ -1,5 +1,5 @@
 # msds
-MS Data Science DePaul University course work for personal reference
+MS Data Science DePaul University course work for personal reference. 3.9 GPA
 
 1. [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
 2. [CSC 555: Mining Big Data](https://github.com/AlexTeboul/msds/tree/main/csc555-mining-big-data)

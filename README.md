@@ -1,6 +1,26 @@
 # msds
 MS Data Science DePaul University course work for personal reference
 
+## [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
+1. [Content Theory Implementation: Emotional Contagion Chatbot](https://github.com/AlexTeboul/msds/blob/main/csc594-topics-in-artificial-intelligence/CSC594_Emotional_Contagion_Content_Theory_Implementation.ipynb)
+    * Build a 6 emotional state text classifier using a Gated Recurrent Neural Network
+    * Build a 3 state sentiment analysis classifier using a standard Sequential Neural Network
+    * Combine these two models into a chatbot game in which an agent gets its mood updated by what is said to it in the chat.
+
+## [CSC 555: Mining Big Data](https://github.com/AlexTeboul/msds/tree/main/csc555-mining-big-data)
+1. [Assignment1_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment1_AlexTeboul.pdf): 
+    * Vectors, SQL, hash keys and hash functions, MapReduce, linux
+2. [Assignment2_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment2_AlexTeboul.pdf): 
+    * MapReduce, SQL, Mappers and Reducers, HDFS replication factor, worker nodes, Hive, Hadoop, AWS EC2
+3. [Assignment3_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment3_AlexTeboul.pdf): 
+    * MapReduce, Hive, Pig
+4. [Assignment4_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment4_AlexTeboul.pdf): 
+    * Hadoop, Page-Rank, Hive, MapReduce jobs, NameNode vs DataNode, Hbase, Mahout
+5. [Assignment5_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment5_AlexTeboul.pdf):
+    * Jaccard distances, matrix normalization, Spark 
+6. [Phase1_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Phase1_AlexTeboul.pdf):
+    * Hadoop, Hive, Pig, Hadoop Streaming
+
 ## [DSC 478: Programming Machine Learning Applications](https://github.com/AlexTeboul/msds/tree/main/dsc478-programming-machine-learning-applications)
 1. [DSC478_A1.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_A1.ipynb)
     * bank.csv dataset exploratory data analysis, compare and contrast customers who opt-in versus out for (PEP) Personal Equity Plans. seaborn pairplots, countplots, etc in Python.
@@ -28,26 +48,6 @@ MS Data Science DePaul University course work for personal reference
 6. [DSC478_sentiment_analysis.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_sentiment_analysis.ipynb)
     * The code for the final project - exploratory data analysis, sentiment analysis from scratch, logistic regression
 
-## [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
-1. [Content Theory Implementation: Emotional Contagion Chatbot](https://github.com/AlexTeboul/msds/blob/main/csc594-topics-in-artificial-intelligence/CSC594_Emotional_Contagion_Content_Theory_Implementation.ipynb)
-    * Build a 6 emotional state text classifier using a Gated Recurrent Neural Network
-    * Build a 3 state sentiment analysis classifier using a standard Sequential Neural Network
-    * Combine these two models into a chatbot game in which an agent gets its mood updated by what is said to it in the chat.
-
-## [CSC 555: Mining Big Data](https://github.com/AlexTeboul/msds/tree/main/csc555-mining-big-data)
-1. [Assignment1_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment1_AlexTeboul.pdf): 
-    * Vectors, SQL, hash keys and hash functions, MapReduce, linux
-2. [Assignment2_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment2_AlexTeboul.pdf): 
-    * MapReduce, SQL, Mappers and Reducers, HDFS replication factor, worker nodes, Hive, Hadoop, AWS EC2
-3. [Assignment3_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment3_AlexTeboul.pdf): 
-    * MapReduce, Hive, Pig
-4. [Assignment4_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment4_AlexTeboul.pdf): 
-    * Hadoop, Page-Rank, Hive, MapReduce jobs, NameNode vs DataNode, Hbase, Mahout
-5. [Assignment5_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment5_AlexTeboul.pdf):
-    * Jaccard distances, matrix normalization, Spark 
-6. [Phase1_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Phase1_AlexTeboul.pdf):
-    * Hadoop, Hive, Pig, Hadoop Streaming
-
 ## [DSC 465: Data Visualization in R and Tableau](https://github.com/AlexTeboul/msds/tree/main/dsc465-data-visualization-in-R-and-Tableau)
 1. [DSC465_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc465-data-visualization-in-R-and-Tableau/DSC465_A1.pdf)
     * Graph time series Intel stock data in Tableau. Stock price and volume over time in Tableau. Histograms. Scatterplots. Error histograms and bar charts for a perception experiment dataset. Boxplots of absolute error for different tests in the dataset in Tableau. 
@@ -67,6 +67,56 @@ MS Data Science DePaul University course work for personal reference
     * Food Services by state aggregated chloropleth charts in Tableau. Tile cartograms in Tableau. 
     * Overlaying hex-bin plots over geospatial crime data in Chicago. Small multiples chloropleths showign crime type counts by ward in Chicago geospatially.
     * Plot terrain data in R using heatmaps and contour plots
+
+## [DSC 441: Fundamentals of Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc441-fundamentals-of-data-science)
+1. [DSC441_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A1.pdf)
+    * classification vs clustering, classification and prediciton, feature selection and feature extraction, data mining and SQL, data warehouses vs data marts
+    * data mining tasks - what is vs isn't data mining.
+    * iris dataset analysis in SPSS. scatterplots, descriptive statistics, histograms, boxplots in SPSS. Paper review.
+2. [DSC441_A2.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A2.pdf)
+    * Boxplots, skewness & kurtosis, Q-Q plots in SPSS. 
+    * z-score normalization, min-max normalization, decimal scaling normalization
+    * scatter plot interpretations, correlation matrices vs covariance matrices
+    * equal-depth and equal-width partitioning
+    * calculating entropy and information gain from scratch. using it to choose best attribute from scratch.
+    * Spotify dataset analysis in SPSS.
+3. [DSC441_A3.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A3.pdf)
+    * Decision Trees for Lupus diagnosis in SPSS. Independent variable importances with CRT / visualize feature importances.
+    * Decision Trees for red wine quality dataset predictions plus impact of binning.
+4. [DSC441_A4.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A4.pdf)
+    * Questions on KNN computation, accuracy, regression, and sensitivity to number of features.
+    * Decision Tree vs KNN capabilities, ROC - AUC interpretation 
+    * High sensitivity vs high specificity which is better for a given scenario. (should actually be sensitivity in this case)
+    * Letter recognition tabular dataset decision tree and KNN
+5. [DSC441_A5.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A5.pdf)
+    * k-means clustering on seeds dataset. euclidean distance similarity measure. importance of normalization in KNN and k-means.
+    * Choosing a k value plus scree-plot.
+    * heirarchical clustering with single linkage algorithm and show dendrogram. again with complete linkage. Compare with k-means on purity. write an executive summary on it.
+    * Decision trees and 3-D scatters in SPSS.
+
+## [DSC 430: Python Programming](https://github.com/AlexTeboul/msds/tree/main/dsc430-python-programming)
+1. [DSC430_A1_P1.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A1_P1.py)
+    * overlap area of 2 squares
+2. [DSC430_A1_P2.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A1_P2.py)
+    * true/false if prime
+    * true/false if happy integer
+    * true/false if happy prime
+    * print first n primes, n happy, n happy primes, n sad primes
+3. [DSC430_A2_P1.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A2_P1.py)
+    * from a list of boys names and girls names write a function that says how many times each name ends in a given letter and compare
+    * girls names 3x as likely to end in a vowel
+4. [DSC430_A2_P2.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A2_P2.py)
+    * function asks the user to enter the x and y coordinates for the two focal points of the ellipse, the length of the major axis and 
+    the number of random points to employ.  
+    * The program then computes and prints the area of the ellipse from randomly generated points.'''
+5. [DSC430_A3_dicecupgame.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A3_dicecupgame.py)
+    * create a dicecup game with various rules and the ability to bet on outcomes and keep track of score.
+6. [DSC430_A4_P2.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A4_P2.py)
+    * build a web-scraper/crawler to get the most common words and their counts accross n-pages on a particular web domain using recursion.
+7. [DSC430_A5.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A5.ipynb)
+    * NumPy basics
+    * Conway’s Game of Life in Python with NumPy
+    * MatPlotLib basics
 
 ## [DSC 424: Advanced Data Analysis in R](https://github.com/AlexTeboul/msds/tree/main/dsc424-advanced-data-analysis-R)
 1. [DSC424-HousingPriceAnalysis-Paper.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc424-advanced-data-analysis-R/DSC424-HousingPriceAnalysis-Paper.pdf)
@@ -98,54 +148,4 @@ MS Data Science DePaul University course work for personal reference
     * apply 5-fold cross validation and compute mean absolute percentage error (MAPE) to tell by what percentage off predictions are on average from the actuals
 3. [DSC423_A4.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc423-data-analysis-and-regression-in-R/DSC423_A4.pdf)
     * churn analysis in R. boxplots. Logistic Regression in R with backward feature selection to predict churn.
-
-## [DSC 430: Python Programming](https://github.com/AlexTeboul/msds/tree/main/dsc430-python-programming)
-1. [DSC430_A1_P1.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A1_P1.py)
-    * overlap area of 2 squares
-2. [DSC430_A1_P2.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A1_P2.py)
-    * true/false if prime
-    * true/false if happy integer
-    * true/false if happy prime
-    * print first n primes, n happy, n happy primes, n sad primes
-3. [DSC430_A2_P1.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A2_P1.py)
-    * from a list of boys names and girls names write a function that says how many times each name ends in a given letter and compare
-    * girls names 3x as likely to end in a vowel
-4. [DSC430_A2_P2.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A2_P2.py)
-    * function asks the user to enter the x and y coordinates for the two focal points of the ellipse, the length of the major axis and 
-    the number of random points to employ.  
-    * The program then computes and prints the area of the ellipse from randomly generated points.'''
-5. [DSC430_A3_dicecupgame.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A3_dicecupgame.py)
-    * create a dicecup game with various rules and the ability to bet on outcomes and keep track of score.
-6. [DSC430_A4_P2.py](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A4_P2.py)
-    * build a web-scraper/crawler to get the most common words and their counts accross n-pages on a particular web domain using recursion.
-7. [DSC430_A5.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc430-python-programming/DSC430_A5.ipynb)
-    * NumPy basics
-    * Conway’s Game of Life in Python with NumPy
-    * MatPlotLib basics
-
-## [DSC 441: Fundamentals of Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc441-fundamentals-of-data-science)
-1. [DSC441_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A1.pdf)
-    * classification vs clustering, classification and prediciton, feature selection and feature extraction, data mining and SQL, data warehouses vs data marts
-    * data mining tasks - what is vs isn't data mining.
-    * iris dataset analysis in SPSS. scatterplots, descriptive statistics, histograms, boxplots in SPSS. Paper review.
-2. [DSC441_A2.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A2.pdf)
-    * Boxplots, skewness & kurtosis, Q-Q plots in SPSS. 
-    * z-score normalization, min-max normalization, decimal scaling normalization
-    * scatter plot interpretations, correlation matrices vs covariance matrices
-    * equal-depth and equal-width partitioning
-    * calculating entropy and information gain from scratch. using it to choose best attribute from scratch.
-    * Spotify dataset analysis in SPSS.
-3. [DSC441_A3.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A3.pdf)
-    * Decision Trees for Lupus diagnosis in SPSS. Independent variable importances with CRT / visualize feature importances.
-    * Decision Trees for red wine quality dataset predictions plus impact of binning.
-4. [DSC441_A4.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A4.pdf)
-    * Questions on KNN computation, accuracy, regression, and sensitivity to number of features.
-    * Decision Tree vs KNN capabilities, ROC - AUC interpretation 
-    * High sensitivity vs high specificity which is better for a given scenario. (should actually be sensitivity in this case)
-    * Letter recognition tabular dataset decision tree and KNN
-5. [DSC441_A5.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A5.pdf)
-    * k-means clustering on seeds dataset. euclidean distance similarity measure. importance of normalization in KNN and k-means.
-    * Choosing a k value plus scree-plot.
-    * heirarchical clustering with single linkage algorithm and show dendrogram. again with complete linkage. Compare with k-means on purity. write an executive summary on it.
-    * Decision trees and 3-D scatters in SPSS.
 

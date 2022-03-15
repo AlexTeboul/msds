@@ -12,13 +12,16 @@
     * Classification using scikit-learn KNN, decision tree, naive bayes (gaussian)
     * Data Analysis and Predictive Modeling on Census data + scikit-learn Naive Bayes (Gaussian), decision tree using entropy, and linear discriminant analysis (LDA). 10-fold cross-validation.
 3. [DSC478_A3.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_A3.ipynb)
-    * Linear Regression in Python with scikit-learn on communities dataset for crime. 
+    * P1: Linear Regression in Python with scikit-learn on communities dataset for crime. 
     * Create standard Linear Regression model from scratch. Then linear regression with sci-kit and do 10 fold cross validation. compare RMSE.
     * Feature selection, get most informative features from scratch. MAE. Accuracy plots by percentage of selected features.
-    * Ridge and Lasso Regression in scikit
+    * Ridge and Lasso Regression in scikit. Plus alpha parameter tuning.
+    * Stochastic gradient descent for regression making sure to standardize using StandardScaler and GridSearchCV. choose optimal l1 or l2 penalty. Use elasticnet penalty on the best parameter settings
+    * P2: Automatic Document Clustering on newgroup dataset. Create a cosine similarity distance metric from scratch.  Create kmeans from scratch. Apply kmeans and use topN from scratch.
+    * P3: PCA for Dimensionality Reduction in Clustering - scikit (sklearn) decomposition (PCA) performed on image segmentation dataset. Calculate completeness and homogeneity scores with and without PCA - because they're close we can use PCA. 
 4. [DSC478_EC.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_EC.ipynb)
-    *
+    * Jokes recommender system from scratch - needs revision.
 5. [DSC478_final_paper.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_final_paper.pdf)
-    *
+    * Course final project looking at a subset of Yelp Reviews dataset performing NLP techniques. I built a sentiment analysis model from scratch and analyzed how it impacted review / if review score. Applied Logistic Regression to predict if a yelp review would be high (4 or 5) or low (1, 2, or 3) based on sentiment. Based on just the sentiment alone, 83% accuracy was obtained in predicting high vs low yelp review.
 6. [DSC478_sentiment_analysis.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_sentiment_analysis.ipynb)
-    *
+    * The code for the final project - exploratory data analysis, sentiment analysis from scratch, logistic regression

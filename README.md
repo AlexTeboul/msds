@@ -28,6 +28,12 @@ MS Data Science DePaul University course work for personal reference
 6. [DSC478_sentiment_analysis.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_sentiment_analysis.ipynb)
     * The code for the final project - exploratory data analysis, sentiment analysis from scratch, logistic regression
 
+## [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
+1. [Content Theory Implementation: Emotional Contagion Chatbot](https://github.com/AlexTeboul/msds/blob/main/csc594-topics-in-artificial-intelligence/CSC594_Emotional_Contagion_Content_Theory_Implementation.ipynb)
+    * Build a 6 emotional state text classifier using a Gated Recurrent Neural Network
+    * Build a 3 state sentiment analysis classifier using a standard Sequential Neural Network
+    * Combine these two models into a chatbot game in which an agent gets its mood updated by what is said to it in the chat.
+
 ## [CSC 555: Mining Big Data](https://github.com/AlexTeboul/msds/tree/main/csc555-mining-big-data)
 1. [Assignment1_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment1_AlexTeboul.pdf): 
     * Vectors, SQL, hash keys and hash functions, MapReduce, linux

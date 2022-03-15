@@ -53,9 +53,11 @@ MS Data Science DePaul University course work for personal reference
     * Support Vector Machines, discriminant analysis, compare RF, DT, Ada, GB, NN, and SVM
 8. [DSC540_HeartDiseasePrediction_Paper.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_HeartDiseasePrediction_Paper.pdf)
     * Paper exploring the use of different machine learning models for heart disease prediction on the CDC BRFSS 2015 dataset. 250,000+ survey responses. Open sourced dataset, code cleaning notebook, modeling code on Kaggle. Achieved 91% accuracy and 0.84 AUC. Extraced most important features for determining heart disease risk / survey questions that should be asked.
-9. [DSC540_JournalArticle_R1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_JournalArticle_R1.pdf)
+9. [DSC540_HeartDiseasePrediction_Presentation.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_HeartDiseasePrediction_Presentation.pdf)
+    * Presentation slides for heart disease paper using RF, GB, Adaboost, and NN for diabetes binary classification.
+10. [DSC540_JournalArticle_R1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_JournalArticle_R1.pdf)
     * Review of paper that involve RF and GB models along accelerometer data from smartphones.
-10. [DSC540_JournalArticle_R2.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_JournalArticle_R2.pdf)
+11. [DSC540_JournalArticle_R2.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_JournalArticle_R2.pdf)
     * Review of journal article exploring the use of support vector machines for diabetes and pre-diabetes prediciton. They determined a subset of 10 questions from the National Health and Nutritional Examination Survey could serve as a public health awareness tool to predict diabetes risk. I got similar accuracy/AUC on my model in this class for heart disease prediction and in another class for diabetes prediction using the BRFSS 2015 instead of NHANES.
 
 ## [DSC 478: Programming Machine Learning Applications](https://github.com/AlexTeboul/msds/tree/main/dsc478-programming-machine-learning-applications)

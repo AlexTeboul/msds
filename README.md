@@ -32,7 +32,6 @@ MS Data Science DePaul University course work for personal reference
 4. [CSC528_StyleGAN2_Presentation.pdf](https://github.com/AlexTeboul/msds/blob/main/csc528-computer-vision/CSC528_StyleGAN2_Presentation.pdf)
     * Presented implementation of StyleGAN2. Considerations for social media accounts with fake images. 
     * Conducted survey on how well humans could distinguish between real and fake faces. [survey link](https://forms.gle/PtkxHrUdeBJvmcXMA)
-    * <a href="https://forms.gle/PtkxHrUdeBJvmcXMA"> <img alt="Python" src="https://i.postimg.cc/V61PhSFT/Screen-Shot-2022-03-15-at-3-11-40-PM.png" height="250"></a>   
 5. [Generating_Fake_Faces_Exploring_StyleGAN.ipynb](https://github.com/AlexTeboul/msds/blob/main/csc528-computer-vision/Generating_Fake_Faces_Exploring_StyleGAN.ipynb)
     * Code for generating fake faces using StyleGAN2
 

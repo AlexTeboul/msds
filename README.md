@@ -137,6 +137,21 @@ MS Data Science DePaul University course work for personal reference
     * Overlaying hex-bin plots over geospatial crime data in Chicago. Small multiples chloropleths showign crime type counts by ward in Chicago geospatially.
     * Plot terrain data in R using heatmaps and contour plots
 
+## [DSC 450: Databases for Analytics](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics)
+1. [DSC450_A1.pdf](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics/DSC450_A1.pdf)
+    * creating tables, primary keys, foreign keys, SQL DDL scripts, 
+2. [DSC450_A2.pdf](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics/DSC450_A2.pdf)
+    * schema decomposition, SQL DDL and SQL INSERT statements
+    * Create tables with Python and sqlite3, simple SQL queries
+3. [DSC450_A3.pdf](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics/DSC450_A3.pdf)
+    * SQL queries with joins, group by, order by, having. More sqlite3 Python SQL table creation, SQL query with sub-queries
+4. [DSC450_A4.pdf](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics/DSC450_A4.pdf)
+    * Python random number generation, more SQL queries and Python sqlite3, PL-SQL Trigger script
+5. [DSC450_A5.pdf](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics/DSC450_A5.pdf)
+    * Create a database of tweets with Python and sqlite3, writing functions to load data into the tables, executing SQL queries, top-words querying
+6. [DSC450_TakeHomeFinal.ipynb](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics/DSC450_TakeHomeFinal.ipynb)
+    * Load in 1,000,000 tweets into tables defined in Python with sqlite3, run with batching, write and execute specific queries for analyzing the twitter data.
+
 ## [DSC 441: Fundamentals of Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc441-fundamentals-of-data-science)
 1. [DSC441_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A1.pdf)
     * classification vs clustering, classification and prediciton, feature selection and feature extraction, data mining and SQL, data warehouses vs data marts

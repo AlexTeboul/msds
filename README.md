@@ -1,6 +1,32 @@
 # msds
 MS Data Science DePaul University course work for personal reference
 
+## [DSC 478: Programming Machine Learning Applications](https://github.com/AlexTeboul/msds/tree/main/dsc478-programming-machine-learning-applications)
+1. [DSC478_A1.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_A1.ipynb)
+    * bank.csv dataset exploratory data analysis, compare and contrast customers who opt-in versus out for (PEP) Personal Equity Plans. seaborn pairplots, countplots, etc in Python.
+    * Apply z-score normalization to income variable. discretize age category into bins with pd.cut. apply min-max normalization with preprocessing.MinMaxScaler(). Get a dummy dataframe with pd.get_dummies. correlation matrices and seaborn heatmap for correlation analysis.
+    * matplotlib plotting and crosstabs
+2. [DSC478_A2.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_A2.ipynb)
+    * Create a KNN classifier from scratch that works with Euclidean or Cosine Similarity for distance measure for use on a subset of the Newsgroup dataste - which is often used for experiments in text applications of machine learning techniques / natural language processing.
+    * create a KNN accuracy function from scratch.
+    * modify the training and test data sets so that term weights are converted to TFxIDF weights (instead of raw term frequencies)
+    * Rocchio Method adapted for text categorization
+    * Classification using scikit-learn KNN, decision tree, naive bayes (gaussian)
+    * Data Analysis and Predictive Modeling on Census data + scikit-learn Naive Bayes (Gaussian), decision tree using entropy, and linear discriminant analysis (LDA). 10-fold cross-validation.
+3. [DSC478_A3.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_A3.ipynb)
+    * P1: Linear Regression in Python with scikit-learn on communities dataset for crime. 
+    * Create standard Linear Regression model from scratch. Then linear regression with sci-kit and do 10 fold cross validation. compare RMSE.
+    * Feature selection, get most informative features from scratch. MAE. Accuracy plots by percentage of selected features.
+    * Ridge and Lasso Regression in scikit. Plus alpha parameter tuning.
+    * Stochastic gradient descent for regression making sure to standardize using StandardScaler and GridSearchCV. choose optimal l1 or l2 penalty. Use elasticnet penalty on the best parameter settings
+    * P2: Automatic Document Clustering on newgroup dataset. Create a cosine similarity distance metric from scratch.  Create kmeans from scratch. Apply kmeans and use topN from scratch.
+    * P3: PCA for Dimensionality Reduction in Clustering - scikit (sklearn) decomposition (PCA) performed on image segmentation dataset. Calculate completeness and homogeneity scores with and without PCA - because they're close we can use PCA. 
+4. [DSC478_EC.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_EC.ipynb)
+    * Jokes recommender system from scratch - needs revision.
+5. [DSC478_final_paper.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_final_paper.pdf)
+    * Course final project looking at a subset of Yelp Reviews dataset performing NLP techniques. I built a sentiment analysis model from scratch and analyzed how it impacted review / if review score. Applied Logistic Regression to predict if a yelp review would be high (4 or 5) or low (1, 2, or 3) based on sentiment. Based on just the sentiment alone, 83% accuracy was obtained in predicting high vs low yelp review.
+6. [DSC478_sentiment_analysis.ipynb](https://github.com/AlexTeboul/msds/blob/main/dsc478-programming-machine-learning-applications/DSC478_sentiment_analysis.ipynb)
+    * The code for the final project - exploratory data analysis, sentiment analysis from scratch, logistic regression
 
 ## [CSC 555: Mining Big Data](https://github.com/AlexTeboul/msds/tree/main/csc555-mining-big-data)
 1. [Assignment1_AlexTeboul.pdf](https://github.com/AlexTeboul/msds/blob/main/csc555-mining-big-data/Assignment1_AlexTeboul.pdf): 
@@ -17,7 +43,6 @@ MS Data Science DePaul University course work for personal reference
     * Hadoop, Hive, Pig, Hadoop Streaming
 
 ## [DSC 465: Data Visualization in R and Tableau](https://github.com/AlexTeboul/msds/tree/main/dsc465-data-visualization-in-R-and-Tableau)
-
 1. [DSC465_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc465-data-visualization-in-R-and-Tableau/DSC465_A1.pdf)
     * Graph time series Intel stock data in Tableau. Stock price and volume over time in Tableau. Histograms. Scatterplots. Error histograms and bar charts for a perception experiment dataset. Boxplots of absolute error for different tests in the dataset in Tableau. 
     * Infant data scatter plots male vs female height vs weight in R with ggplot2. Scatterplot with trendlines in R. 
@@ -53,7 +78,6 @@ MS Data Science DePaul University course work for personal reference
     * Perform Linear Discriminant Analysis (LDA) in R on housing data, Apply Random Forest Classification and compare to the results of LDA, summarize a journal article that uses cluster analysis in the field of metabolomics/drug research, analyze/summarize a journal article that uses PCA and LDA, perfrom linear discriminant analysis in R for bond ratings classification, analyze/summarize a Natural Language Processing paper where the authors compare Factor Analysis and Latent Dirichlet Allocation for topic modeling 
 
 ## [DSC 423: Data Analysis and Regression in R](https://github.com/AlexTeboul/msds/tree/main/dsc423-data-analysis-and-regression-in-R)
-
 1. [DSC423_A2.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc423-data-analysis-and-regression-in-R/DSC423_A2.pdf)
     * Using R markdown. scatterplot matrix in R. correlation matrix in R. Fit a linear regression model and compute VIF statistics to check for multicollinearity.
     * compare coefficient of determination R2 and adjusted R2. create residual plots in R. qq-plots. linear regression test for influencial points / outliers in R. 
@@ -70,7 +94,6 @@ MS Data Science DePaul University course work for personal reference
     * churn analysis in R. boxplots. Logistic Regression in R with backward feature selection to predict churn.
 
 ## [DSC 441: Fundamentals of Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc441-fundamentals-of-data-science)
-
 1. [DSC441_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc441-fundamentals-of-data-science/DSC441_A1.pdf)
     * classification vs clustering, classification and prediciton, feature selection and feature extraction, data mining and SQL, data warehouses vs data marts
     * data mining tasks - what is vs isn't data mining.

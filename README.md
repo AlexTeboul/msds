@@ -35,7 +35,7 @@ MS Data Science DePaul University course work for personal reference
 5. [Generating_Fake_Faces_Exploring_StyleGAN.ipynb](https://github.com/AlexTeboul/msds/blob/main/csc528-computer-vision/Generating_Fake_Faces_Exploring_StyleGAN.ipynb)
     * Code for generating fake faces using StyleGAN2
 
-## [DSC 540: Advanced Machine Learnin](https://github.com/AlexTeboul/msds/tree/main/dsc540-advanced-machine-learning)
+## [DSC 540: Advanced Machine Learning](https://github.com/AlexTeboul/msds/tree/main/dsc540-advanced-machine-learning)
 
 1. [DSC540_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_A1.pdf)
     * Decision trees, cross-validation, RMSE and explained variance, run-time

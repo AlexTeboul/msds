@@ -4,15 +4,16 @@ MS Data Science DePaul University course work for personal reference. 3.9 GPA
 1. [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
 2. [CSC 555: Mining Big Data](https://github.com/AlexTeboul/msds/tree/main/csc555-mining-big-data)
 3. [CSC 528: Computer Vision](https://github.com/AlexTeboul/msds/tree/main/csc528-computer-vision)
-4. [DSC 540: Advanced Machine Learning](https://github.com/AlexTeboul/msds/tree/main/dsc540-advanced-machine-learning)
-5. [DSC 510: Health Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc510-health-data-science)
-6. [DSC 478: Programming Machine Learning Applications](https://github.com/AlexTeboul/msds/tree/main/dsc478-programming-machine-learning-applications)
-7. [DSC 465: Data Visualization in R and Tableau](https://github.com/AlexTeboul/msds/tree/main/dsc465-data-visualization-in-R-and-Tableau)
-8. [DSC 450: Databases for Analytics](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics)
-9. [DSC 441: Fundamentals of Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc441-fundamentals-of-data-science)
-10. [DSC 430: Python Programming](https://github.com/AlexTeboul/msds/tree/main/dsc430-python-programming)
-11. [DSC 424: Advanced Data Analysis in R](https://github.com/AlexTeboul/msds/tree/main/dsc424-advanced-data-analysis-R)
-12. [DSC 423: Data Analysis and Regression in R](https://github.com/AlexTeboul/msds/tree/main/dsc423-data-analysis-and-regression-in-R)
+4. [DSC 672: Capstone - Predicting Shelter Pet Popularity with Computer Vision](https://github.com/AlexTeboul/msds/tree/main/dsc672-capstone)
+5. [DSC 540: Advanced Machine Learning](https://github.com/AlexTeboul/msds/tree/main/dsc540-advanced-machine-learning)
+6. [DSC 510: Health Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc510-health-data-science)
+7. [DSC 478: Programming Machine Learning Applications](https://github.com/AlexTeboul/msds/tree/main/dsc478-programming-machine-learning-applications)
+8. [DSC 465: Data Visualization in R and Tableau](https://github.com/AlexTeboul/msds/tree/main/dsc465-data-visualization-in-R-and-Tableau)
+9. [DSC 450: Databases for Analytics](https://github.com/AlexTeboul/msds/tree/main/dsc450-databases-for-analytics)
+10. [DSC 441: Fundamentals of Data Science](https://github.com/AlexTeboul/msds/tree/main/dsc441-fundamentals-of-data-science)
+11. [DSC 430: Python Programming](https://github.com/AlexTeboul/msds/tree/main/dsc430-python-programming)
+12. [DSC 424: Advanced Data Analysis in R](https://github.com/AlexTeboul/msds/tree/main/dsc424-advanced-data-analysis-R)
+13. [DSC 423: Data Analysis and Regression in R](https://github.com/AlexTeboul/msds/tree/main/dsc423-data-analysis-and-regression-in-R)
 
 ## [CSC 594: Topics in Artificial intelligence](https://github.com/AlexTeboul/msds/tree/main/csc594-topics-in-artificial-intelligence)
 1. [Content Theory Implementation: Emotional Contagion Chatbot](https://github.com/AlexTeboul/msds/blob/main/csc594-topics-in-artificial-intelligence/CSC594_Emotional_Contagion_Content_Theory_Implementation.ipynb)
@@ -47,6 +48,21 @@ MS Data Science DePaul University course work for personal reference. 3.9 GPA
     * Conducted survey on how well humans could distinguish between real and fake faces. [survey link](https://forms.gle/PtkxHrUdeBJvmcXMA)
 5. [Generating_Fake_Faces_Exploring_StyleGAN.ipynb](https://github.com/AlexTeboul/msds/blob/main/csc528-computer-vision/Generating_Fake_Faces_Exploring_StyleGAN.ipynb)
     * Code for generating fake faces using StyleGAN2
+
+## [DSC 672: Capstone - Predicting Shelter Pet Popularity with Computer Vision](https://github.com/AlexTeboul/msds/tree/main/dsc672-capstone)
+
+- TLDR: In this competition we were tasked with predicting shelter pet popularity based on images of the animals. 
+- Metadata was provided that had human generated feature information about the images - 
+like if the pet was in focus and not occluded. Unfortunately, not much signal could be obtained. 
+- The target variable was the Pawpularity score, a proprietary click-rate score from PetFinder.my that was not well explained by the images or human-generated metadata.
+- Only improvements over guessing the mean Pawpularity score involved applying transfer learning to predict pet breed of cat and dog, then training models to infer pawpularity based on breed. 
+- Some breeds were preferred over others in terms of click-rate on the website. 
+
+1. In [Tutorial Part 1: EDA for Beginners](https://www.kaggle.com/alexteboul/tutorial-part-1-eda-for-beginners), we cover the exploratory data analysis process from start to finish for the PetFinder.my Pawpularity Contest.
+2. In [Tutorial Part 2: Model Building using the Metadata](https://www.kaggle.com/alexteboul/tutorial-part-2-model-building-using-the-metadata), we build models using the metadata (.csv data) provided by the competition hosts. Specifically, we explore Decision Tree Classification, Decision Tree Regression, Ordinary Least Squares Regression, Ridge Regression, Bernoulli Naive Bayes Classification, Random Forest Regression, and Histogram-based Gradient Boosting Regression (LightGBM). RMSE 20.54
+3. In [Tutorial Part 3: CNN Image Models 1](https://www.kaggle.com/alexteboul/tutorial-part-3-cnn-image-modeling-1), we explore preprocessing the training images, explaining the data types necessary to model with images, a basic Convolutional Neural Network architecture, and submitting predictions. Tensorflow
+4. The research paper summarizing our project: [Paper](https://github.com/AlexTeboul/msds/blob/main/dsc672-capstone/Paper%20-%20Predicting%20Shelter%20Pet%20Popularity%20with%20Computer%20Vision.pdf)
+5. The presentation for our project: [Presentation](https://github.com/AlexTeboul/msds/blob/main/dsc672-capstone/Presentation-%20Predicting%20Shelter%20Pet%20Popularity%20with%20Computer%20Vision.pdf) 
 
 ## [DSC 540: Advanced Machine Learning](https://github.com/AlexTeboul/msds/tree/main/dsc540-advanced-machine-learning)
 1. [DSC540_A1.pdf](https://github.com/AlexTeboul/msds/blob/main/dsc540-advanced-machine-learning/DSC540_A1.pdf)

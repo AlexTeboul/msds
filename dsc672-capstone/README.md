@@ -1,4 +1,4 @@
-# DSC 672: Capstone Project
+# DSC 672: Capstone Project - Predicting Shelter Pet Popularity with Computer Vision
 
 **Link:** https://www.kaggle.com/alexteboul
 
@@ -13,5 +13,5 @@ Some breeds were preferred over others in terms of click-rate on the website.
 1. In [Tutorial Part 1: EDA for Beginners](https://www.kaggle.com/alexteboul/tutorial-part-1-eda-for-beginners), we cover the exploratory data analysis process from start to finish for the PetFinder.my Pawpularity Contest.
 2. In [Tutorial Part 2: Model Building using the Metadata](https://www.kaggle.com/alexteboul/tutorial-part-2-model-building-using-the-metadata), we build models using the metadata (.csv data) provided by the competition hosts. Specifically, we explore Decision Tree Classification, Decision Tree Regression, Ordinary Least Squares Regression, Ridge Regression, Bernoulli Naive Bayes Classification, Random Forest Regression, and Histogram-based Gradient Boosting Regression (LightGBM). RMSE 20.54
 3. In [Tutorial Part 3: CNN Image Models 1](https://www.kaggle.com/alexteboul/tutorial-part-3-cnn-image-modeling-1), we explore preprocessing the training images, explaining the data types necessary to model with images, a basic Convolutional Neural Network architecture, and submitting predictions. Tensorflow
-4. 
-5. 
+4. The research paper summarizing our project: [Paper](https://github.com/AlexTeboul/msds/blob/main/dsc672-capstone/Paper%20-%20Predicting%20Shelter%20Pet%20Popularity%20with%20Computer%20Vision.pdf)
+5. The presentation for our project: [Presentation](https://github.com/AlexTeboul/msds/blob/main/dsc672-capstone/Presentation-%20Predicting%20Shelter%20Pet%20Popularity%20with%20Computer%20Vision.pdf) 
